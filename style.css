@@ -273,11 +273,9 @@ section{padding:6rem 3rem;position:relative}
   }
 }
 .about-img {
-  width: 100%;
-  max-width: 380px;   /* desktop limit */
+  width: clamp(220px, 25vw, 420px);
   aspect-ratio: 3 / 4;
   overflow: hidden;
-  border-radius: 6px;
 }
 .about-img img {
   width: 100%;
