@@ -79,10 +79,9 @@ header.scrolled{
   backdrop-filter:blur(20px);
 }
 .logo{
-  font-family:var(--fh);
-  font-size:1.8rem;
-  letter-spacing:.05em;
+  text-decoration:none;
   color:var(--text);
+  cursor:pointer;
 }
 .logo span{color:var(--accent)}
 nav{display:flex;gap:2rem;align-items:center}
