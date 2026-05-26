@@ -260,17 +260,17 @@ section{padding:6rem 3rem;position:relative}
 #about{background:var(--surface)}
 .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:center}
 .about-img-wrap{position:relative}
-.about-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
 .about-img {
   width: 100%;
   max-width: 300px;
   aspect-ratio: 3/4;
   overflow: hidden;
+}
+.about-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 .about-img::before{
   content:'';position:absolute;inset:0;
